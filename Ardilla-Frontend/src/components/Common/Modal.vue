@@ -4,7 +4,7 @@
       <div class="bg-white p-6 rounded-xl">
         <div
           @click="$emit('toggleModal')"
-          class="flex items-center gap-1 text-xs mb-4 font-[500]"
+          class="flex items-center gap-1 text-xs mb-4 font-[500] cursor-pointer"
         >
           <Back /> Go Back
         </div>

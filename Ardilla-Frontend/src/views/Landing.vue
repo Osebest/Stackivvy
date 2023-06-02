@@ -50,7 +50,7 @@
       <div class="padded pt-10 pb-16">
         <img :src="LandingBtn" alt="page-button" class="mb-5" />
         <div class="hidden md:flex justify-end mb-6">
-          <Next @click="next" />
+          <Next @click="next" class="cursor-pointer"/>
         </div>
         <Carousel
           v-bind:autoplay="true"
